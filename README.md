@@ -25,6 +25,5 @@ The game starts in fullscreen. Press `Esc` to switch between fullscreen and wind
 | `Esc` | Toggle fullscreen |
 | Mouse wheel / arrow keys | Scroll the shop |
 
-- Mission data and gameplay are kept in `main.py` for a simple setup.
 - Progress and purchased items reset when the game is restarted.
 - This is an independent educational game. NASA-inspired names and concepts are used for gameplay only; the project is not affiliated with, endorsed by, or sponsored by NASA.

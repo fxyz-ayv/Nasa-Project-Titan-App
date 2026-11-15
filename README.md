@@ -11,19 +11,7 @@ Rocket Game: Mission Architect is a 2D space mission design and flight game with
 - Unlockable missions and hardware shop
 - 2D flight, landing, scanning, and mission objectives
 - Fullscreen toggle with `Esc`
-
-## Requirements
-
-- Python 3.10 or newer
-- Pygame 2.5 or newer (2.x)
-
-## Installation and launch
-
-```bash
-python -m pip install -r requirements.txt
-python main.py
-```
-
+  
 The game starts in fullscreen. Press `Esc` to switch between fullscreen and windowed mode. The game uses built-in shapes and system fonts, so no external assets are needed.
 
 ## Controls
@@ -36,18 +24,6 @@ The game starts in fullscreen. Press `Esc` to switch between fullscreen and wind
 | Hold `E` | Scan an objective while landed |
 | `Esc` | Toggle fullscreen |
 | Mouse wheel / arrow keys | Scroll the shop |
-
-## Project structure
-
-```text
-.
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-## Notes
 
 - Mission data and gameplay are kept in `main.py` for a simple setup.
 - Progress and purchased items reset when the game is restarted.
